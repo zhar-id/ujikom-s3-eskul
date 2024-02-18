@@ -1,0 +1,585 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.orang {
+  display: none;
+}
+
+/* homepage */
+.wadah {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+
+.kiri {
+  width: 300px;
+  background-color: #000000;
+}
+
+.kanan {
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  left: 25%;
+  background: #ef0000;
+  border-left: 360px solid #000000;
+  border-bottom: 100vh solid #ef0000;
+}
+
+#merahblur {
+  position: absolute;
+  z-index: 1;
+  width: 175px;
+  height: 175px;
+  left: 14%;
+  top: 30%;
+  background: #910a0a;
+  filter: blur(50px);
+}
+
+#birublur {
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  left: 5%;
+  top: 30%;
+  background: #1016a0;
+  filter: blur(50px);
+}
+
+#sakat {
+  position: absolute;
+  z-index: 2;
+  width: fit-content;
+  height: fit-content;
+  left: 4%;
+  top: 29%;
+  font-family: "Kadwa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 500%;
+  color: #ffffff;
+}
+
+#basket {
+  position: absolute;
+  scale: 2;
+  left: 45%;
+  bottom: 12.8%;
+}
+
+#voli {
+  position: absolute;
+  z-index: 2;
+  scale: 1.7;
+  left: 55%;
+  bottom: 16.6%;
+}
+
+#badminton {
+  position: absolute;
+  scale: 1.5;
+  left: 62%;
+  bottom: 10%;
+}
+
+#bola {
+  position: absolute;
+  scale: 2;
+  left: 75%;
+  bottom: 11.1%;
+}
+
+#lengkap {
+  background-color: transparent;
+  padding: 5px 10px;
+  color: white;
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  z-index: 3;
+  font-size: 20px;
+}
+
+.logo {
+  position: absolute;
+  z-index: 1;
+  margin: 1%;
+}
+
+.logo img {
+  width: 35%;
+  height: 35%;
+}
+
+/* aboutpage */
+#about {
+  background-color: #000000;
+}
+
+.kolom {
+  float: left;
+}
+
+.kolom.kiri2 {
+  width: 80%;
+  background: #000000;
+}
+
+.kolom.kanan2 {
+  width: 20%;
+  background: #000;
+}
+
+#garisputih {
+  width: 232px;
+  height: 0px;
+  margin-top: 15%;
+  margin-left: -1%;
+  border: 1.5px solid #ffffff;
+  transform: rotate(90deg);
+}
+
+#tentang {
+  position: relative;
+  width: 100px;
+  height: 77px;
+  margin-left: 10%;
+  margin-top: 7%;
+  font-family: "NATS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 160%;
+  line-height: 32px;
+  color: #ef0000;
+}
+
+#sports1 {
+  width: fit-content;
+  height: 6%;
+  margin-left: 10%;
+  margin-top: -3%;
+  font-family: "NATS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 160%;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+#redbox {
+  width: 100%;
+  height: 90vh;
+  background: #ef0000;
+}
+
+#sports2 {
+  position: relative;
+  width: 400px;
+  height: 50px;
+  top: 40%;
+  right: 30%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 300%;
+  line-height: 36px;
+  color: white;
+  transform: rotate(-90deg);
+}
+
+#deskripsi {
+  width: 70%;
+  height: 150px;
+  margin-left: 14%;
+  margin-top: -8%;
+  font-family: "NATS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 125%;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.bawah {
+  display: flex;
+  margin-top: -5%;
+}
+
+#basket2 {
+  width: 85px;
+  margin-top: -35%;
+  margin-left: -11%;
+}
+
+#o-basket {
+  width: 75px;
+  height: 75px;
+  margin-left: 11%;
+  margin-top: 15%;
+  background: #b81414;
+  border-radius: 100%;
+}
+
+#bakat {
+  color: white;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  width: 89px;
+  margin-top: 10px;
+  margin-left: -2px;
+}
+
+#voli2 {
+  width: 85px;
+  margin-top: -59%;
+  margin-left: 11%;
+}
+
+#o-voli {
+  width: 75px;
+  height: 75px;
+  background: #100a91;
+  margin-left: 3%;
+  margin-top: 15%;
+  border-radius: 100%;
+}
+
+#vokat {
+  color: white;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  width: 81px;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+#bola2 {
+  width: 105px;
+  margin-top: -17%;
+  margin-left: -4%;
+  scale: 1.15;
+}
+
+#o-futsal {
+  background: #b81414;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  margin-left: 3%;
+  margin-top: 15%;
+}
+
+#fukat {
+  color: white;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  width: 87px;
+  margin-top: 11.5px;
+  margin-left: 2px;
+}
+
+#badminton2 {
+  width: 97px;
+  margin-top: -53%;
+  margin-left: -15%;
+}
+
+#o-badminton {
+  background: #100a91;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  margin-left: 3%;
+  margin-top: 15%;
+}
+
+#tonkat {
+  color: white;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  width: 115px;
+  margin-top: 9px;
+  margin-left: -2px;
+}
+
+#o-basket,
+#o-voli,
+#o-futsal,
+#o-badminton {
+  transition: 0.3s ease-in-out;
+}
+#o-basket:hover,
+#o-voli:hover,
+#o-futsal:hover,
+#o-badminton:hover {
+  transform: translateY(-10px);
+}
+#o-basket,
+#o-voli,
+#o-futsal,
+#o-badminton {
+  transition: 0.3s ease-in-out;
+}
+#o-basket:hover,
+#o-voli:hover,
+#o-futsal:hover,
+#o-badminton:hover {
+  transform: translateY(-10px);
+}
+#lengkap {
+  color: #ffffff;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Menggunakan rgba untuk warna transparan kegelapan */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#lengkap:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Menggunakan rgba untuk warna transparan kegelapan saat dihover */
+}
+.navbar {
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar a {
+  float: right;
+  text-decoration: none;
+  color: #ef0000;
+  padding: 1%;
+  margin-top: 1%;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #000000;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50px;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  section {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+  }
+
+  /* homepage */
+  .wadah {
+    display: none;
+  }
+
+  .orang {
+    display: flex;
+    scale: 1;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  #sakat {
+    font-size: 200%;
+    padding: 15%;
+    margin-left: 15%;
+    margin-top: -10%;
+  }
+
+  #lengkap {
+    padding-left: 15%;
+    margin-bottom: 20%;
+  }
+
+  /* aboutpage */
+  #garisputih {
+    display: none;
+  }
+
+  #deskripsi {
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-right: 1%;
+    font-size: 125%;
+    width: 50%;
+    float: right;
+  }
+  #sports1 {
+    margin-top: -9%;
+  }
+
+  #sports2 {
+    right: 105%;
+  }
+
+  .bawah {
+    display: block;
+  }
+
+  #tonkat,
+  #vokat,
+  #fukat,
+  #bakat {
+    width: fit-content;
+  }
+
+  #basket2,
+  #voli2 {
+    width: 70px;
+  }
+
+  #badminton2 {
+    width: 82px;
+  }
+
+  #bola2 {
+    width: 90px;
+  }
+
+  #o-voli,
+  #o-badminton,
+  #o-futsal {
+    width: 62px;
+    height: 62px;
+    margin-top: 60px;
+  }
+
+  #o-basket {
+    width: 60px;
+    height: 60px;
+    margin-left: 3%;
+  }
+}

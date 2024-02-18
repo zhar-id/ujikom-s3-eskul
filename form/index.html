@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pendaftaran Eskul</title>
+  </head>
+  <body>
+    <div class="container-form">
+      <div class="form">
+        <div class="registration-form">
+          <form action="proses.php" method="post">
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              placeholder="NAMA"
+              autocomplete="off"
+              required
+            />
+
+            <input
+              type="text"
+              id="kelas"
+              name="kelas"
+              placeholder="KELAS"
+              autocomplete="off"
+              required
+            />
+
+            <input
+              type="tel"
+              id="notelp"
+              name="notelp"
+              placeholder="NO. TELP"
+              autocomplete="off"
+              required
+            />
+
+            <input
+              type="date"
+              id="tgl_lahir"
+              name="tgl_lahir"
+              placeholder="Tanggal Lahir"
+              autocomplete="off"
+              required
+            />
+
+            <select id="eskul" name="eskul" required>
+              <option disabled selected>PILIH ESKUL</option>
+              <option value="1">BADMINTON</option>
+              <option value="2">BASKET</option>
+              <option value="3">FUTSAL</option>
+              <option value="4">VOLI</option>
+            </select>
+            <button>
+              <a class="btn-kembali" href="../main/index.html">Kembali</a>
+            </button>
+            <button class="btn-daftar" type="submit">Daftar</button>
+          </form>
+        </div>
+        <div class="poster">
+          <div class="post1">
+            <div class="post"></div>
+            <img class="basket" src="img/basket.svg" alt="" />
+          </div>
+          <div class="post2">
+            <div class="post"></div>
+            <img class="voli" src="img/voli.svg" alt="" />
+          </div>
+          <div class="mainpost">
+            <div class="post"></div>
+            <img class="badminton" src="img/badminton.svg" alt="" />
+          </div>
+          <div class="mainpost">
+            <div class="post"></div>
+            <img class="futsal" src="img/futsal.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

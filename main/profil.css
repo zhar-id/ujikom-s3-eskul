@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+
+.topnav {
+  width: 100%;
+}
+
+.topnav ul {
+  list-style: none;
+}
+
+.topnav a {
+  float: right;
+  color: #ef0000;
+  text-decoration: none;
+  margin-top: 1.5%;
+  margin-right: 3%;
+}
+
+.topnav a:hover {
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+
+.atas {
+  width: 100%;
+  height: 35vh;
+}
+
+.tengah {
+  background: #e30000;
+  width: 100%;
+  height: 10vh;
+}
+
+.bawah {
+  width: 100%;
+  height: 50vh;
+}
+
+#bakat {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 6%;
+  font-family: "NATS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150%;
+  color: #ffffff;
+}
+
+.garis-putih {
+  max-width: 15%;
+  height: 0%;
+  margin-top: 9%;
+  margin-left: -1%;
+  border: 1.5px solid #ffffff;
+  transform: rotate(90deg);
+}
+
+.kolom {
+  float: left;
+}
+
+.kolom.kiri {
+  width: 60%;
+  margin-top: 3.5%;
+}
+
+.kolom.kanan {
+  width: 40%;
+  margin-top: 1%;
+}
+
+#desk {
+  color: #ffffff;
+  width: 60%;
+  height: auto;
+  font-family: "NATS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120%;
+  position: absolute;
+  left: 5%;
+  top: 14.5%;
+}
+
+#jadwal {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 7%;
+  margin-left: 40%;
+  margin-bottom: 2%;
+  font-family: "NATS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130%;
+  color: #ffffff;
+}
+
+#jadwal-desk {
+  color: #ffffff;
+  width: 40%;
+  height: fit-content;
+  font-family: "NATS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120%;
+  margin-top: 3%;
+  margin-left: 40%;
+}
+
+.kiri-bawah {
+  width: 35%;
+}
+
+.kanan-bawah {
+  width: 65%;
+}
+
+.kotak {
+  width: 200px;
+  height: 200px;
+  margin-left: 40%;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+.kotak img {
+  width: 200px;
+  height: 200px;
+}
+
+#pelatih {
+  color: white;
+  max-width: fit-content;
+  font-size: 150%;
+  margin-top: 10%;
+}
+
+#pelatih-desk {
+  color: white;
+  max-width: 80%;
+  margin-top: 2%;
+  font-size: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .atas {
+    height: 45vh;
+  }
+
+  .tengah {
+    height: 5vh;
+  }
+
+  .bawah {
+    height: 50vh;
+  }
+
+  .kotak {
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+
+  .kanan-bawah {
+    width: 50%;
+  }
+
+  .kiri-bawah {
+    width: 50%;
+  }
+
+  .garis-putih {
+    display: none;
+  }
+
+  #bakat {
+    margin-top: 5%;
+  }
+
+  #jadwal {
+    margin-top: 35%;
+  }
+
+  #desk {
+    font-size: 100%;
+    margin-top: auto;
+    margin-right: 2%;
+  }
+
+  #pelatih {
+    font-size: 100%;
+  }
+
+  #pelatih-desk {
+    font-size: 85%;
+    margin-right: 3%;
+  }
+}
